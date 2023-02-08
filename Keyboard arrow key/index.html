@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Keyboard arrow key</h1>
+    <div class="arrow-key-container">
+      <div class="arrow-key up" onclick="myFunctionup()" data-key="38"></div>
+      <br />
+      <div
+        class="arrow-key left"
+        onclick="myFunctionleft()"
+        data-key="37"
+      ></div>
+      <div
+        class="arrow-key down"
+        onclick="myFunctiondown()"
+        data-key="40"
+      ></div>
+      <div
+        id="arrow"
+        class="arrow-key right"
+        onclick="myFunctiondown()"
+        data-key="39"
+      ></div>
+    </div>
+    <div class="textup"></div>
+    <div class="textleft"></div>
+    <div class="textdown"></div>
+    <div class="textright"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
